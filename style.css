@@ -183,13 +183,14 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   width: 100%;
-  border-color: green;
-  border-width: 5px;
-  border-style: solid;
+
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
+  border-color: white;
+border-width: 1px;
+border-style: solid;
 }
 
 .nav-menu .drop-down ul {
@@ -227,6 +228,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-left:15px;
   color: #00B2EE;
 }
 
